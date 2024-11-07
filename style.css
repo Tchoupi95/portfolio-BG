@@ -10,7 +10,12 @@ h1 {
     text-align: center;
   
 }
-
+h2 {
+    color: blue;  /* mettre le niveau de titre 1 en rouge*/
+    font-size: 45px;
+    text-align: left;
+  
+}
 /* Sélecteur de classe */
 .important {
     font-weight: bold;  /*met en gras*/
@@ -21,7 +26,12 @@ h1 {
     padding: 20px;
     color: grey;
 }
-
+p1 {
+    color: black;  /* mettre le niveau de titre 1 en rouge*/
+    font-size: 25px;
+    text-align: left;
+  
+}
 
 p {
     background-color: #FBF8F6;
