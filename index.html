@@ -1,18 +1,17 @@
-
-html
-Copier le code
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio de Baptiste Geraudie</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Ton Nom</h1>
+            <img src="placeholder-photo.jpg" alt="Photo de Baptiste Geraudie" class="profile-photo">
+            <h1>Baptiste Geraudie</h1>
+            <p>Futur Majeur de ma Promotion - Passionné de Golf</p>
             <nav>
                 <ul>
                     <li><a href="#about">À propos</a></li>
@@ -25,59 +24,50 @@ Copier le code
     </header>
 
     <section id="about" class="section">
-        <div class="container">
-            <h2>À propos</h2>
-            <p>Je suis [ta description ici]. Passionné(e) par [ton domaine], j'aime créer et résoudre des problèmes grâce à mes compétences en [ton expertise].</p>
-        </div>
+        <h2>À propos</h2>
+        <p>Étudiant dynamique et passionné, je vise l’excellence en combinant stratégie et leadership pour devenir le majeur de ma promotion. Avec une passion inégalée pour le golf, j'ai su transposer les valeurs de ce sport - précision, persévérance et esprit d'équipe - dans mes projets académiques et professionnels.</p>
     </section>
 
     <section id="projects" class="section">
-        <div class="container">
-            <h2>Projets</h2>
-            <div class="project">
-                <h3>Projet 1</h3>
-                <p>Description de ton projet.</p>
-            </div>
-            <div class="project">
-                <h3>Projet 2</h3>
-                <p>Description de ton projet.</p>
-            </div>
+        <h2>Projets Réalisés</h2>
+        <div class="project">
+            <h3>Organisation du Black Friday 2024</h3>
+            <p>Gestion complète du Black Friday au Golf Bluegreen de Bellefontaine, combinant stratégie marketing et expérience client.</p>
+        </div>
+        <div class="project">
+            <h3>Plan Marketing Koezio Cergy 2025</h3>
+            <p>Création d'une campagne de communication innovante pour renforcer les relations B2B dans un cadre de team building.</p>
         </div>
     </section>
 
     <section id="skills" class="section">
-        <div class="container">
-            <h2>Compétences</h2>
-            <ul>
-                <li>Compétence 1</li>
-                <li>Compétence 2</li>
-                <li>Compétence 3</li>
-            </ul>
-        </div>
+        <h2>Compétences</h2>
+        <ul>
+            <li>Leadership et Gestion de projet</li>
+            <li>Marketing stratégique et opérationnel</li>
+            <li>Organisation d'événements sportifs</li>
+            <li>Esprit d'équipe et communication</li>
+        </ul>
     </section>
 
     <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <form action="mailto:tonemail@example.com" method="post" enctype="text/plain">
-                <label for="name">Nom</label>
-                <input type="text" id="name" name="name" required>
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom">
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email">
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Votre message"></textarea>
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Envoyer</button>
-            </form>
-        </div>
+            <button type="submit">Envoyer</button>
+        </form>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Ton Nom. Tous droits réservés.</p>
-        </div>
+        <p>Portfolio de Baptiste Geraudie - © 2024</p>
     </footer>
 </body>
 </html>
