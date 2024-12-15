@@ -157,7 +157,7 @@ ul li {
 
 .job h3 {
   font-size: 1.8rem;
-  color: #; /* Violet */
+  color: #6a1b9a; /* Violet */
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -173,7 +173,7 @@ ul li {
 }
 
 .job:hover {
-  background-color: #f2f2f2;
+  background-color: #e1bee7; /* Violet très pâle */
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   transform: scale(1.02);
   transition: all 0.3s ease-in-out;
@@ -186,7 +186,7 @@ ul li {
 
 .competence-section h3 {
   font-size: 1.6rem;
-  color: #4FCD9;
+  color: #6a1b9a; /* Violet principal */
   margin-bottom: 10px;
   font-weight: 600;
   letter-spacing: 1px;
