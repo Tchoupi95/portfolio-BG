@@ -1,4 +1,4 @@
-/* Réinitialisation des marges et des paddings pour tous les éléments */
+/* Réinitialisation des marges, des paddings et de la box-sizing pour un contrôle total */
 * {
   margin: 0;
   padding: 0;
@@ -6,19 +6,17 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* Corps de la page */
+/* Style de base pour le corps de la page */
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
-  padding: 0;
-  margin: 0;
 }
 
 /* En-tête */
 header {
-  background-color: #534340; /* Vert pastel */
+  background-color: #534340; /* Couleur principale de l'en-tête */
   color: #fff;
   padding: 60px 0;
   text-align: center;
@@ -32,16 +30,14 @@ header h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  transition: transform 0.3s ease;
 }
 
 header h1:hover {
-  transform: scale(1.05);
+  transform: scale(1.05); /* Léger zoom au survol */
 }
 
 header p {
   font-size: 1.2rem;
-  margin-top: 5px;
   font-weight: 300;
 }
 
@@ -56,7 +52,7 @@ header .hero img {
 }
 
 header .hero img:hover {
-  transform: rotate(360deg);
+  transform: rotate(360deg); /* Effet de rotation au survol */
 }
 
 /* Navigation */
@@ -64,13 +60,12 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  background-color: #BB9981; /* Vert frais */
-  margin: 0;
+  background-color: #BB9981; /* Couleur secondaire */
   padding: 15px 0;
 }
 
 nav ul li {
-  margin: 0 30px;
+  margin: 0 20px;
   position: relative;
 }
 
@@ -82,7 +77,6 @@ nav ul li a {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 5px;
-  position: relative;
 }
 
 nav ul li a::after {
@@ -103,7 +97,7 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:hover {
-  background-color: #BB9981; /* Vert pâle */
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Section principale */
@@ -119,17 +113,15 @@ section {
 
 h2 {
   font-size: 2.3rem;
-  color: #C5D8A4; /* Violet principal */
+  color: #6a1b9a; /* Couleur principale des titres */
   font-weight: 600;
   margin-bottom: 20px;
-  position: relative;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: color 0.3s ease;
 }
 
 h2:hover {
-  color: #C5D8A4; /* Violet plus clair */
+  color: #9c4dcc; /* Variation plus claire */
 }
 
 p, ul {
@@ -145,19 +137,18 @@ ul li {
   margin-bottom: 10px;
 }
 
-/* Job Section */
+/* Expériences professionnelles */
 .job {
   background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  position: relative;
 }
 
 .job h3 {
   font-size: 1.8rem;
-  color: #6a1b9a; /* Violet */
+  color: #6a1b9a;
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -173,10 +164,9 @@ ul li {
 }
 
 .job:hover {
-  background-color: #e1bee7; /* Violet très pâle */
+  background-color: #e1bee7;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   transform: scale(1.02);
-  transition: all 0.3s ease-in-out;
 }
 
 /* Compétences */
@@ -186,12 +176,10 @@ ul li {
 
 .competence-section h3 {
   font-size: 1.6rem;
-  color: #6a1b9a; /* Violet principal */
-  margin-bottom: 10px;
+  color: #6a1b9a;
   font-weight: 600;
-  letter-spacing: 1px;
+  margin-bottom: 10px;
   text-transform: uppercase;
-  position: relative;
 }
 
 .competence-section h3::after {
@@ -202,7 +190,6 @@ ul li {
   background-color: #6a1b9a;
   bottom: -5px;
   left: 30%;
-  transition: width 0.3s ease;
 }
 
 .competence-section h3:hover::after {
@@ -210,22 +197,22 @@ ul li {
   left: 0;
 }
 
-/* Footer */
+/* Pied de page */
 footer {
-  background-color: #BB9981; /* Vert frais */
+  background-color: #BB9981;
   color: #fff;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   margin-top: 50px;
-  font-weight: 300;
-  letter-spacing: 1px;
 }
 
 footer p {
   font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
-/* Réduire la taille du texte et des éléments sur les petits écrans */
+/* Réduction pour les petits écrans */
 @media screen and (max-width: 768px) {
   main {
     padding: 30px 5%;
@@ -250,10 +237,6 @@ footer p {
 
   h2 {
     font-size: 1.8rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
   }
 
   footer p {
