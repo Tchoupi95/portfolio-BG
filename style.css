@@ -15,7 +15,7 @@ body {
   padding: 0;
 }
 
-/* En-tête */
+/* Header */
 header {
   background-color: #FFFFF; /* Blanc */
   text-align: center;
@@ -33,7 +33,7 @@ header p {
   font-weight: 300;
 }
 
-/* Style de l'image du header */
+/* Image de profil */
 .profile-img {
   width: 150px;  /* Taille de l'image */
   height: auto;  /* Proportions maintenues */
@@ -50,6 +50,7 @@ header p {
   transition: transform 0.3s ease;  /* Transition fluide */
 }
 
+/* Contact Button */
 header .btn {
   margin-top: 15px;
   display: inline-block;
@@ -92,7 +93,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Sections principales */
+/* Main Sections */
 main {
   padding: 20px;
 }
@@ -116,7 +117,41 @@ ul li {
   margin-bottom: 5px;
 }
 
-/* Pied de page */
+/* Jobs */
+.job {
+  background-color: #f4f4f4;  /* Fond léger */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job h3 {
+  font-size: 1.5rem;
+  color: #228B22; /* Vert forêt */
+  margin-bottom: 5px;
+}
+
+.job ul li {
+  margin-left: 20px;
+}
+
+/* Competence Section */
+.competence-section {
+  margin-bottom: 20px;
+}
+
+.competence-section h3 {
+  font-size: 1.5rem;
+  color: #228B22; /* Vert forêt */
+  margin-bottom: 10px;
+}
+
+.competence-section ul li {
+  margin-left: 20px;
+}
+
+/* Footer */
 footer {
   background-color: #2F4F4F; /* Vert foncé */
   color: #FFFFFF;
