@@ -17,10 +17,10 @@ body {
 
 /* En-tête */
 header {
-  background-color: #FFFFF; /* Vert forêt */
+  background-color: #FFFFF; /* Blanc */
   text-align: center;
   padding: 40px 20px;
-  color: #228B22; /* Texte blanc */
+  color: #228B22; /* Vert forêt */
 }
 
 header h1 {
@@ -35,20 +35,19 @@ header p {
 
 /* Style de l'image du header */
 .profile-img {
-    width: 150px;  /* Taille de l'image */
-    height: auto;  /* Proportions maintenues */
-    border-radius: 50%;  /* Forme ronde */
-    border: 3px solid #333;  /* Bordure */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Ombre légère */
-    display: block;  /* Affichage en bloc */
-    margin: 0 auto;  /* Centrage horizontal */
+  width: 150px;  /* Taille de l'image */
+  height: auto;  /* Proportions maintenues */
+  border-radius: 50%;  /* Forme ronde */
+  border: 3px solid #333;  /* Bordure */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Ombre légère */
+  display: block;  /* Affichage en bloc */
+  margin: 0 auto;  /* Centrage horizontal */
 }
 
 /* Effet au survol */
 .profile-img:hover {
-    transform: scale(1.1);  /* Zoom */
-    transition: transform 0.3s ease;  /* Transition fluide */
-}
+  transform: scale(1.1);  /* Zoom */
+  transition: transform 0.3s ease;  /* Transition fluide */
 }
 
 header .btn {
