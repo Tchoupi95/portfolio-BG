@@ -9,15 +9,11 @@
 /* Style de base pour le corps de la page */
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
 }
 
 /* En-tête */
 header {
-  background-color: #534340; /* Couleur principale de l'en-tête */
-  color: #fff;
+  color: #F5F5DC; /* Texte ivoire */
   padding: 60px 0;
   text-align: center;
   position: relative;
@@ -30,10 +26,11 @@ header h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #A2C66F; /* Vert clair */
 }
 
 header h1:hover {
-  transform: scale(1.05); /* Léger zoom au survol */
+  transform: scale(1.05);
 }
 
 header p {
@@ -45,14 +42,14 @@ header .hero img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 4px solid #F5F5DC;
   margin-top: 20px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 header .hero img:hover {
-  transform: rotate(360deg); /* Effet de rotation au survol */
+  transform: rotate(360deg);
 }
 
 /* Navigation */
@@ -60,7 +57,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  background-color: #BB9981; /* Couleur secondaire */
+  background-color: #6B8E23; /* Vert olive */
   padding: 15px 0;
 }
 
@@ -70,7 +67,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #F5F5DC; /* Texte ivoire */
   text-decoration: none;
   font-size: 1.1rem;
   padding: 10px 15px;
@@ -84,7 +81,7 @@ nav ul li a::after {
   position: absolute;
   width: 0;
   height: 2px;
-  background-color: #fff;
+  background-color: #A2C66F; /* Vert clair */
   left: 50%;
   bottom: -5px;
   transition: width 0.3s ease, left 0.3s ease;
@@ -103,8 +100,9 @@ nav ul li a:hover {
 /* Section principale */
 main {
   padding: 70px 10%;
-  background-color: #fff;
+  background-color: #FFFDF6; /* Blanc cassé */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 section {
@@ -113,7 +111,7 @@ section {
 
 h2 {
   font-size: 2.3rem;
-  color: #6a1b9a; /* Couleur principale des titres */
+  color: #6B8E23; /* Vert olive */
   font-weight: 600;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -121,12 +119,12 @@ h2 {
 }
 
 h2:hover {
-  color: #9c4dcc; /* Variation plus claire */
+  color: #A2C66F; /* Vert clair */
 }
 
 p, ul {
   font-size: 1.2rem;
-  color: #666;
+  color: #4A3C31; /* Texte marron foncé */
 }
 
 ul {
@@ -139,7 +137,7 @@ ul li {
 
 /* Expériences professionnelles */
 .job {
-  background-color: #f9f9f9;
+  background-color: #FFFDF6; /* Fond doux */
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 8px;
@@ -148,7 +146,7 @@ ul li {
 
 .job h3 {
   font-size: 1.8rem;
-  color: #6a1b9a;
+  color: #8B4513; /* Marron chaud */
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -156,7 +154,7 @@ ul li {
 
 .job p {
   font-size: 1.1rem;
-  color: #555;
+  color: #555; /* Texte gris doux */
 }
 
 .job ul {
@@ -164,7 +162,7 @@ ul li {
 }
 
 .job:hover {
-  background-color: #e1bee7;
+  background-color: #A2C66F; /* Vert clair */
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   transform: scale(1.02);
 }
@@ -176,7 +174,7 @@ ul li {
 
 .competence-section h3 {
   font-size: 1.6rem;
-  color: #6a1b9a;
+  color: #6B8E23; /* Vert olive */
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -187,7 +185,7 @@ ul li {
   position: absolute;
   width: 40%;
   height: 2px;
-  background-color: #6a1b9a;
+  background-color: #A2C66F; /* Vert clair */
   bottom: -5px;
   left: 30%;
 }
@@ -199,8 +197,8 @@ ul li {
 
 /* Pied de page */
 footer {
-  background-color: #BB9981;
-  color: #fff;
+  background-color: #8B4513; /* Marron chaud */
+  color: #F5F5DC; /* Texte ivoire */
   text-align: center;
   padding: 20px;
   margin-top: 50px;
